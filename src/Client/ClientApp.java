@@ -105,52 +105,5 @@ public class ClientApp
                 System.out.println(tempDown.thermostat());
             }
         }
-
-        /*
-
-        // light
-
-        PowerOn switchOn = new PowerOn(lightBulb);
-        System.out.println(switchOn.lightBulb());
-
-        PowerOff switchOff = new PowerOff(lightBulb);
-        System.out.println(switchOff.lightBulb());
-
-        PlusButtonCommand adjustBrightnessUp = new PlusButtonCommand(lightBulb);
-        System.out.println(adjustBrightnessUp.lightBulb());
-
-        MinusButtonCommand adjustBrightnessDown = new MinusButtonCommand(lightBulb);
-        System.out.println(adjustBrightnessDown.lightBulb());
-
-        // music player
-
-        PowerOn turnOn = new PowerOn(musicPlayer);
-        System.out.println(turnOn.musicPlayer());
-
-        PowerOff turnOff = new PowerOff(musicPlayer);
-        System.out.println(turnOff.musicPlayer());
-
-        PlusButtonCommand volumeUp = new PlusButtonCommand(musicPlayer);
-        System.out.println(volumeUp.musicPlayer());
-
-        MinusButtonCommand volumeDown = new MinusButtonCommand(musicPlayer);
-        System.out.println(volumeDown.musicPlayer());
-
-        // thermostat
-
-        PowerOn activate = new PowerOn(thermostat);
-        System.out.println(activate.thermostat());
-
-        PowerOff deactivate = new PowerOff(thermostat);
-        System.out.println(deactivate.thermostat());
-
-        PlusButtonCommand tempUp = new PlusButtonCommand(thermostat);
-        System.out.println(tempUp.thermostat());
-
-        MinusButtonCommand tempDown = new MinusButtonCommand(thermostat);
-        System.out.println(tempDown.thermostat());
-
-         */
-
     }
 }
